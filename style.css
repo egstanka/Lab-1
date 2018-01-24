@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+
+.header{
+    background-color: rgb(47, 195, 253);
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+li{
+    padding-left: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.content{
+    padding-top:100px;
+    width: 70%;
+    height: 500px;
+    background-color: #F2F2F2;
+}
+
+.sidebar{
+    width: 30%;
+    height: 500px;
+    background-color: #454545;
+    color: #ffffff;
+}
+
+p{
+    margin: 20px;
+}
