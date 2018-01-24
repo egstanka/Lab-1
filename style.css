@@ -9,22 +9,28 @@ body{
     height: 60px;
     line-height: 60px;
     padding: 20px;
-    position: fixed;
     width: 100%;
+    float: left;
+    margin: 0px;
+}
+
+h1{
+    float: left;
 }
 
 .navigation{
-    display: flex;
-    justify-content: flex-end;
+    float: right;
 }
 
 ul{
     list-style-type: none;
-    padding-right: 20px;
+    padding-right: 45px;
+    float: right;
 }
 
 li{
     padding-left: 20px;
+    float: left;
 }
 
 a:link{
@@ -32,10 +38,10 @@ a:link{
 }
 
 .content{
-    padding-top:100px;
     width: 70%;
     height: 500px;
     background-color: #F2F2F2;
+    float: left;
 }
 
 .sidebar{
@@ -43,6 +49,7 @@ a:link{
     height: 500px;
     background-color: #454545;
     color: #ffffff;
+    float: right;
 }
 
 p{
